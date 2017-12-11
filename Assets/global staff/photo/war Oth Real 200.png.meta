@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 86038cc2b3bec444bbb8e1a6b0920d23
+timeCreated: 1455002837
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: war Oth Real 200_0
+    21300002: war Oth Real 200_1
+    21300004: war Oth Real 200_2
+    21300006: war Oth Real 200_3
+    21300008: war Oth Real 200_4
+    21300010: war Oth Real 200_5
+    21300012: war Oth Real 200_6
+    21300014: war Oth Real 200_7
+    21300016: war Oth Real 200_8
+    21300018: war Oth Real 200_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: war Oth Real 200_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 137
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 23.5}
+        - {x: -2.5, y: 23.5}
+        - {x: -20.5, y: -9.5}
+        - {x: -20.5, y: -25.5}
+        - {x: 5.5, y: -25.5}
+        - {x: 11.5, y: -18.5}
+        - {x: 18.5, y: -1.5}
+        - {x: 18.5, y: 2.5}
+    - name: war Oth Real 200_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 87
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 25}
+        - {x: -23.5, y: 8}
+        - {x: -23.5, y: -19}
+        - {x: -17.5, y: -25}
+        - {x: 15.5, y: -25}
+        - {x: 23.5, y: -13}
+        - {x: 23.5, y: 22}
+        - {x: 22.5, y: 25}
+    - name: war Oth Real 200_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 39
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 24}
+        - {x: -6.5, y: 24}
+        - {x: -26.5, y: 1}
+        - {x: -26.5, y: -22}
+        - {x: -25.5, y: -24}
+        - {x: 12.5, y: -24}
+        - {x: 26.5, y: -3}
+        - {x: 26.5, y: 15}
+    - name: war Oth Real 200_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 34
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: war Oth Real 200_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 62
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: war Oth Real 200_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 91
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: war Oth Real 200_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 121
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 23.5}
+        - {x: -27.5, y: -0.5}
+        - {x: -27.5, y: -23.5}
+        - {x: 27.5, y: -23.5}
+        - {x: 27.5, y: 23.5}
+    - name: war Oth Real 200_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 93
+        width: 77
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 27.5}
+        - {x: -38.5, y: -1.5}
+        - {x: -38.5, y: -16.5}
+        - {x: -6.5, y: -27.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 38.5, y: 1.5}
+        - {x: 38.5, y: 25.5}
+        - {x: 37.5, y: 27.5}
+    - name: war Oth Real 200_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 42
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 22}
+        - {x: -27, y: 5}
+        - {x: -27, y: -13}
+        - {x: -5, y: -22}
+        - {x: 19, y: -22}
+        - {x: 27, y: -6}
+        - {x: 27, y: 21}
+        - {x: 24, y: 22}
+    - name: war Oth Real 200_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 300
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

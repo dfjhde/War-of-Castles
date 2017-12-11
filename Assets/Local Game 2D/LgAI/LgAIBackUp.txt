@@ -1,0 +1,210 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+
+
+public class LgAI : MonoBehaviour 
+{
+
+	public Color AiTeamColor;
+	public LgCastle AiTargetCastle;
+	public List<LgCastle> AiFromCastle;
+
+	public Transform LgCastleList;
+
+	public LgCastle MainCastle;
+
+	public float timeInterval = 1f;
+
+	ArrayList ReadyToGoCastle = new ArrayList();
+	ArrayList MustGoCastle = new ArrayList();
+	ArrayList MustSaveCastle = new ArrayList();
+
+	void Start()  
+	{
+		AiFromCastle = new List<LgCastle>();
+
+		StartCoroutine(Move());
+	}
+		
+	IEnumerator Move()
+	{
+		yield return new WaitForSeconds(timeInterval/LgManager.lgm.gameSpeed);
+
+		foreach(LgCastle lgc in LgManager.lgm.lgcList)
+		{
+			if(MainCastle == null)
+			{
+				if(lgc.topSr.color == AiTeamColor)
+				{
+					MainCastle = lgc;
+				}
+			}
+		}
+
+		while(MainCastle != null)
+		{
+			Think();
+			if(AiFromCastle != null && AiTargetCastle != null)
+			{
+				LgManager.lgm.BuildFroce(AiFromCastle,AiTargetCastle);
+			}
+			AiFromCastle.Clear();
+			AiTargetCastle = null;
+			yield return new WaitForSeconds(timeInterval/LgManager.lgm.gameSpeed);
+		}
+	}
+
+	void Think()
+	{	
+		if(CheckSave())
+		{
+			Save();
+			return;
+		}
+		else if(CheckAttack())
+		{
+			Attack();
+			return;
+		}
+	}
+
+
+
+	bool CheckSave()
+	{
+		foreach(LgCastle lgc in LgManager.lgm.lgcList)
+		{
+			if(lgc.population < (lgc.GetTopPop()/4) && lgc.topSr.color == AiTeamColor )
+			{
+				if(AiTargetCastle)
+				{
+					if(AiTargetCastle.population>lgc.population)
+					{
+						AiTargetCastle=lgc;
+					}
+				}
+				else
+				{
+					AiTargetCastle=lgc;
+				}
+			}
+		}
+		return AiTargetCastle != null;
+	}
+
+	void Save()
+	{
+		foreach(LgCastle lgc in LgManager.lgm.lgcList)
+		{
+			if(lgc.topSr.color == AiTeamColor && lgc.population>lgc.GetTopPop()/2)
+			{
+				if(((lgc.population/2)+AiTargetCastle.population+PopIncrease(lgc,AiTargetCastle))>AiTargetCastle.GetTopPop()/2)
+				{
+					AiFromCastle.Add(lgc);
+					return;
+				}
+			}
+		}
+	}
+
+	bool CheckAttack()
+	{
+		float distance = 100f;
+		foreach(LgCastle lgc in LgManager.lgm.lgcList)
+		{
+			if(lgc.topSr.color != AiTeamColor)
+			{
+				float newDis=Vector3.Distance(MainCastle.transform.position,lgc.transform.position);
+				if(newDis<distance)
+				{
+					distance=newDis;
+					AiTargetCastle=lgc;
+				}
+			}
+		}
+		return AiTargetCastle != null;
+	}
+
+	void Attack()
+	{
+		foreach(LgCastle lgc in LgManager.lgm.lgcList)
+		{
+			if(lgc.topSr.color == AiTeamColor && lgc.population>lgc.GetTopPop()/2)
+			{
+				AiFromCastle.Add(lgc);
+			}
+		}
+	}
+
+
+	/*
+	void Think1()
+	{
+		Debug.Log("think 1");
+		//刷新城堡列表
+		ownedCastle.Clear();
+
+
+		foreach(LgCastle lgc in AllCastle)
+		{
+			switch(lgc.sr.color == AiTeamColor)
+			{
+			case AiTeamColor:
+				CastleAi(lgc);
+				break;
+
+			case Color.white:
+				CastleNeutral(lgc);
+				break;
+
+			default:
+				CastleNeutral(lgc);
+				break;
+			}
+		}
+		AiFromCastle = ReadyToGoCastle;
+	}
+
+	void CastleAi(LgCastle lgc)
+	{
+		ownedCastle.Add(lgc);
+
+
+		if(lgc.population < (lgc.topPop/4))
+		{
+			AiTargetCastle=lgc;
+		}
+		else if(lgc.population == lgc.topPop)
+		{
+			MustGoCastle.Add(lgc);
+		}
+		else if(lgc.population > (lgc.topPop/2))
+		{
+			MustSaveCastle.Add(lgc);
+		}
+	}
+
+	void CastleNeutral(LgCastle lgc)
+	{
+		float distance = 100f;
+		float newDis=Vector3.Distance(MainCastle.transform.position,lgc.transform.position);
+		if(newDis<distance)
+		{
+			distance=newDis;
+			AiTargetCastle=lgc;
+		}
+	}
+	*/
+	//---------tools------------
+	int PopIncrease(LgCastle from, LgCastle target)
+	{
+		float distance=Vector3.Distance(from.transform.position,target.transform.position);
+		return (int) (distance/LgManager.lgm.speed);
+	}
+
+
+
+
+}

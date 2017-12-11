@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 21781a6cf45e1cb4d950779532ee18df
+timeCreated: 1499474911
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCylinder1
+    100004: soldier1
+    100006: soldier:group1
+    100008: soldier:pCube2
+    100010: soldier:pCylinder1
+    100012: soldier:pCylinder2
+    100014: soldier:pCylinder5
+    100016: soldier:pPlane1
+    100018: soldier:pSphere1
+    100020: tower_big
+    100022: tower_middle
+    100024: tower_small
+    100026: transform50
+    100028: cloth
+    100030: head
+    100032: shield
+    100034: shield1
+    100036: soldier2
+    100038: soldier3
+    100040: sword
+    100042: polySurface1
+    100044: polySurface2
+    100046: polySurface3
+    100048: polySurface4
+    100050: polySurface5
+    100052: polySurface6
+    100054: transform51
+    100056: transform52
+    100058: transform53
+    100060: body
+    100062: joint1
+    100064: joint2
+    100066: joint3
+    100068: joint4
+    100070: joint5
+    100072: joint6
+    100074: tower_small1
+    100076: flag1
+    100078: flag1_joint
+    100080: flag_joint
+    100082: joint10
+    100084: joint11
+    100086: joint12
+    100088: joint8
+    100090: joint9
+    100092: pCube1
+    100094: pCube2
+    400000: //RootNode
+    400002: pCylinder1
+    400004: soldier1
+    400006: soldier:group1
+    400008: soldier:pCube2
+    400010: soldier:pCylinder1
+    400012: soldier:pCylinder2
+    400014: soldier:pCylinder5
+    400016: soldier:pPlane1
+    400018: soldier:pSphere1
+    400020: tower_big
+    400022: tower_middle
+    400024: tower_small
+    400026: transform50
+    400028: cloth
+    400030: head
+    400032: shield
+    400034: shield1
+    400036: soldier2
+    400038: soldier3
+    400040: sword
+    400042: polySurface1
+    400044: polySurface2
+    400046: polySurface3
+    400048: polySurface4
+    400050: polySurface5
+    400052: polySurface6
+    400054: transform51
+    400056: transform52
+    400058: transform53
+    400060: body
+    400062: joint1
+    400064: joint2
+    400066: joint3
+    400068: joint4
+    400070: joint5
+    400072: joint6
+    400074: tower_small1
+    400076: flag1
+    400078: flag1_joint
+    400080: flag_joint
+    400082: joint10
+    400084: joint11
+    400086: joint12
+    400088: joint8
+    400090: joint9
+    400092: pCube1
+    400094: pCube2
+    2300000: soldier1
+    2300002: soldier:pCube2
+    2300004: soldier:pCylinder1
+    2300006: soldier:pCylinder2
+    2300008: soldier:pCylinder5
+    2300010: soldier:pPlane1
+    2300012: soldier:pSphere1
+    2300014: tower_big
+    2300016: tower_middle
+    2300018: tower_small
+    2300020: cloth
+    2300022: head
+    2300024: shield
+    2300026: shield1
+    2300028: soldier2
+    2300030: sword
+    2300032: polySurface1
+    2300034: polySurface3
+    2300036: polySurface5
+    2300038: polySurface6
+    2300040: body
+    2300042: tower_small1
+    2300044: pCube1
+    2300046: pCube2
+    3300000: soldier1
+    3300002: soldier:pCube2
+    3300004: soldier:pCylinder1
+    3300006: soldier:pCylinder2
+    3300008: soldier:pCylinder5
+    3300010: soldier:pPlane1
+    3300012: soldier:pSphere1
+    3300014: tower_big
+    3300016: tower_middle
+    3300018: tower_small
+    3300020: cloth
+    3300022: head
+    3300024: shield
+    3300026: shield1
+    3300028: soldier2
+    3300030: sword
+    3300032: polySurface1
+    3300034: polySurface3
+    3300036: polySurface5
+    3300038: polySurface6
+    3300040: body
+    3300042: tower_small1
+    3300044: pCube1
+    3300046: pCube2
+    4300000: tower_small
+    4300002: tower_middle
+    4300004: tower_big
+    4300006: soldier1
+    4300008: soldier:pCylinder1
+    4300010: soldier:pCylinder2
+    4300012: soldier:pPlane1
+    4300014: soldier:pCube2
+    4300016: soldier:pSphere1
+    4300018: soldier:pCylinder5
+    4300020: soldier2
+    4300022: shield1
+    4300024: shield
+    4300026: sword
+    4300028: head
+    4300030: cloth
+    4300032: polySurface1
+    4300034: polySurface3
+    4300036: polySurface5
+    4300038: polySurface6
+    4300040: body
+    4300042: tower_small1
+    4300044: flag1
+    4300046: pCube1
+    4300048: pCube2
+    7400000: Take 001
+    7400002: Take 0010
+    9500000: //RootNode
+    13700000: flag1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Take 0010
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: flag1
+        weight: 1
+      - path: flag1_joint
+        weight: 1
+      - path: flag1_joint/joint2
+        weight: 1
+      - path: flag1_joint/joint2/joint3
+        weight: 1
+      - path: flag1_joint/joint2/joint3/joint4
+        weight: 1
+      - path: flag1_joint/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: flag1_joint/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: soldier1
+        weight: 1
+      - path: soldier1/body
+        weight: 1
+      - path: soldier1/head
+        weight: 1
+      - path: soldier1/shield
+        weight: 1
+      - path: soldier1/sword
+        weight: 1
+      - path: soldier:group1
+        weight: 1
+      - path: soldier:group1/pCylinder1
+        weight: 1
+      - path: soldier:group1/pCylinder1/transform50
+        weight: 1
+      - path: soldier:group1/soldier:pCube2
+        weight: 1
+      - path: soldier:group1/soldier:pCylinder1
+        weight: 1
+      - path: soldier:group1/soldier:pCylinder2
+        weight: 1
+      - path: soldier:group1/soldier:pCylinder5
+        weight: 1
+      - path: soldier:group1/soldier:pPlane1
+        weight: 1
+      - path: soldier:group1/soldier:pSphere1
+        weight: 1
+      - path: tower_big
+        weight: 1
+      - path: tower_middle
+        weight: 1
+      - path: tower_small1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.05
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

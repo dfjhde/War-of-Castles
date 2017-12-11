@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97ac368d259f83429007a0faefce46a, type: 3}
+  m_Name: Lession1
+  m_EditorClassIdentifier: 
+  steps:
+  - descriptionString: This red castle is your castle, you lose when all your tower
+      is occupied
+    isNextBtnShown: 1
+    needPointer: 1
+    pointerPos: {x: -10, y: 10, z: 0}
+    needHand: 0
+    handClip: {fileID: 0}
+  - descriptionString: This Yellow castle is enemy, you win when you occupant all
+      of them
+    isNextBtnShown: 1
+    needPointer: 1
+    pointerPos: {x: 12, y: 10, z: 0}
+    needHand: 0
+    handClip: {fileID: 0}
+  - descriptionString: Now, let's drag your armies from your castle toward enemy's!
+    isNextBtnShown: 0
+    needPointer: 0
+    pointerPos: {x: 0, y: 0, z: 0}
+    needHand: 1
+    handClip: {fileID: 7400000, guid: fb2b21f7df906aa46a6a3fa7a7b9eb7b, type: 2}

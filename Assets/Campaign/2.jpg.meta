@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: f251cc970d3fbb84188e4f54c30bed3a
+timeCreated: 1500357707
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: chapter1
+    21300002: chapter2
+    21300004: chapter3
+    21300006: chapter4
+    21300008: full map
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: chapter1
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 14
+        width: 832
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -416, y: 157.5}
+        - {x: -416, y: -157.5}
+        - {x: 416, y: -157.5}
+        - {x: 416, y: 157.5}
+    - name: chapter2
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 355
+        width: 686
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -343, y: 312.5}
+        - {x: -343, y: -312.5}
+        - {x: 343, y: -312.5}
+        - {x: 343, y: 312.5}
+    - name: chapter3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 352
+        width: 828
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -414, y: 374}
+        - {x: -414, y: -374}
+        - {x: 414, y: -374}
+        - {x: 414, y: 374}
+    - name: chapter4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 848
+        width: 1018
+        height: 489
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -509, y: 244.5}
+        - {x: -509, y: -244.5}
+        - {x: 509, y: -244.5}
+        - {x: 509, y: 244.5}
+    - name: full map
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1000, y: 1000}
+        - {x: -1000, y: -1000}
+        - {x: 1000, y: -1000}
+        - {x: 1000, y: 1000}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
