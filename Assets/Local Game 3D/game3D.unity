@@ -981,7 +981,6 @@ MonoBehaviour:
   btnBackViaStop: {fileID: 1739734113}
   authorNameIF: {fileID: 1792930888}
   btnStop: {fileID: 958402033}
-  stopPanelGo: {fileID: 2006187187}
   overPanelGo: {fileID: 415476325}
   overText: {fileID: 413765564}
   uploadText: {fileID: 1182978392}
